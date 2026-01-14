@@ -94,13 +94,30 @@ footer {
 
 #textos {
     margin: 10%;
+    border: 10px solid bisque;
+    border-radius: 2em;
 }
 
-#primcipal {
-    
+#textos header{
+    margin: 10px;
+    border: 10px solid bisque;
+    background-color: bisque;
+    border-radius: 1em;
+    margin: auto 2%;
+}
+#textos section p{
+    background-color: lightgray;
+    border: 10px  whitesmoke;
+    padding: 10px 20px;
+    border-radius: 1em;
+    margin: auto 2%;
+
 }
 
-#Secundario { 
 
+#imagen img {
+    height: 500px;
+    width: 500PX;
+    margin: auto 10%;
 }
 
