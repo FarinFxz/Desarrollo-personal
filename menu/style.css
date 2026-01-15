@@ -42,6 +42,7 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     font-weight: bold;
+    text-align: end;
 }
 
 #container {

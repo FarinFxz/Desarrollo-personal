@@ -1,0 +1,48 @@
+img {
+    border: 2px solid black;
+    max-width: 100px auto;
+    height: 100px ;
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+body {
+    background-color: lightslategray;
+}
+#productos div{
+    float: left;
+    padding: 5px;
+    background-color: cornsilk;
+    border: 1px solid bisque;
+}
+
+#productos div div button{
+    float:inline-end;
+    padding: 3px;
+    border-radius: 5px;
+    color: darkblue;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#productos div div {
+    border: 1px solid black;
+    max-width: 100px;
+    max-height: 100px auto;
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+/*footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+} */
