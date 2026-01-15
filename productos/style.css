@@ -1,7 +1,8 @@
 img {
     border: 2px solid black;
-    max-width: 100px auto;
+    max-width: 100px;
     height: 100px ;
+    object-fit: cover;
     display: block;
     margin: 5px auto;
     border-radius: 5px;
@@ -10,39 +11,46 @@ img {
 body {
     background-color: lightslategray;
 }
-#productos div{
-    float: left;
-    padding: 5px;
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+}
+
+#productos > div{
+    padding: 10px;
     background-color: cornsilk;
     border: 1px solid bisque;
+    max-width: 200px;
+    border-radius: 5px;
 }
 
 #productos div div button{
-    float:inline-end;
-    padding: 3px;
+    display: block;
+    padding-left: auto;
+    padding: 5px 10px;
     border-radius: 5px;
     color: darkblue;
     font-size: large;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 #productos div div {
     border: 1px solid black;
-    max-width: 100px;
-    max-height: 100px auto;
-    display: block;
-    margin: 5px auto;
     border-radius: 5px;
     background-color: whitesmoke;
+    padding: 5px;
 }
 
-/*footer {
+footer {
     background-color: black;
     color: whitesmoke;
     text-align: center;
     padding: 10px;
-    position: relative;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     font-weight: bold;
-} */
+} 
